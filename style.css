@@ -92,7 +92,7 @@ a:hover {
 .heroContainer {
   height: 100%;
   width: 100%;
- 
+  background-image: url(./images/background-1945183_1920.jpg);
   background-repeat: no-repeat;
   background-position: cover;
   background-attachment: fixed;
@@ -217,13 +217,13 @@ section .aboutUs .left img {
   background-repeat: no-repeat;
   background-position: cover;
   background-attachment: fixed;
- padding: 90px 0px;
+
 }
 
 section .Investment {
   height: 100%;
   margin-top: -10px;
-
+ padding: 90px 0px;
   border-bottom: solid 10px #fcbc03;
   border-top: solid 10px #fcbc03;
 }
