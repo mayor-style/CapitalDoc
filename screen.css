@@ -1,0 +1,755 @@
+@media (min-width:1130px) and (max-width:1360px) {
+
+  section .Investment .topDesign {
+    margin-top: -275px;
+  }
+
+  #FAQ {
+    padding: 70px 80px;
+  }
+
+  .FAQ .heading {
+    width: 65%;
+  }
+
+  .FAQ .content {
+    width: 70%;
+  }
+
+
+}
+
+@media (min-width:932px) and (max-width:1129.5px) {
+
+  .hero h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .hero p {
+    font-size: 17px;
+  }
+
+  .hero {
+    width: 70%;
+  }
+
+  section .aboutUs .left img {
+    height: 400px;
+  }
+
+  section .Investment .topDesign {
+    margin-top: -245px;
+    height: 300px;
+    width: 300px;
+  }
+
+  section .Investment .bottomDesign {
+    margin-top: -260px;
+    height: 350px;
+    width: 350px;
+  }
+
+  section .Investment .heading {
+    width: 60%;
+  }
+
+  section .Investment .heading p {
+    font-size: 20px;
+    z-index: 4000;
+    font-weight: 600;
+  }
+
+  section .Investment .cardCon {
+    grid-template-columns: 33% 33% 33%;
+    gap: 15px;
+    padding: 60px 40px;
+  }
+
+  .WhyChoose .heading {
+    width: 80%;
+  }
+
+  .HowItWork .heading {
+    width: 85%;
+    padding-bottom: 20px;
+  }
+
+  .HowItWork .heading p {
+    word-spacing: 2px;
+  }
+
+  #FAQ {
+    padding: 70px 30px;
+  }
+
+  .FAQ .heading {
+    width: 90%;
+  }
+
+  .FAQ .content {
+    width: 95%;
+  }
+
+  #getStarted {
+    padding: 80px 50px 120px 50px;
+  }
+
+  .getStarted .shape {
+    left: 44%;
+  }
+}
+
+@media (min-width:768px) and (max-width:932.5px) {
+
+  .hero h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .hero p {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .hero {
+    width: 76%;
+  }
+
+  section .aboutUs {
+    padding: 70px 0px;
+  }
+
+  section .aboutUs .left {
+    display: none;
+  }
+
+  section .aboutUs .right {
+    width: 90%;
+  }
+
+  section .Investment .topDesign {
+    display: none;
+  }
+
+  section .Investment .heading {
+    width: 60%;
+  }
+
+  section .Investment .heading p {
+    font-size: 20px;
+    z-index: 4000;
+    font-weight: 600;
+  }
+
+  section .Investment .cardCon {
+    grid-template-columns: 50% 50%;
+    gap: 15px;
+    padding: 50px;
+  }
+
+  .WhyChoose .heading {
+    width: 90%;
+  }
+
+  .WhyChoose .heading h1 {
+    font-size: 30px;
+  }
+
+  .WhyChoose .heading h1 span {
+    font-size: 40px;
+  }
+
+  .WhyChoose .cardCon {
+    grid-template-columns: 50% 50%;
+  }
+
+  .HowItWork .heading {
+    width: 85%;
+    padding-bottom: 20px;
+  }
+
+  .HowItWork .heading p {
+    word-spacing: 2px;
+    font-size: 20px;
+  }
+
+  .HowItWork .heading h1 {
+    font-size: 30px;
+  }
+
+  .HowItWork .heading h1 span {
+    font-size: 40px;
+  }
+
+  .HowItWork .line {
+    width: 45px;
+  }
+
+  #FAQ {
+    padding: 70px 30px;
+  }
+
+  .FAQ .heading {
+    width: 90%;
+  }
+
+  .FAQ .heading h1 {
+    font-size: 30px;
+  }
+
+  .FAQ .heading h1 span {
+    font-size: 40px;
+  }
+
+  .FAQ .heading p {
+    font-size: 20px;
+  }
+
+  .FAQ .content {
+    width: 95%;
+  }
+
+  .FAQ .content .card h1 {
+    font-size: 22px;
+  }
+
+  .FAQ .content .card p {
+    font-size: 19px;
+  }
+
+  #getStarted {
+    padding: 80px 50px 120px 50px;
+  }
+
+  .getStarted .heading h1 {
+    font-size: 30px;
+  }
+
+  .getStarted .heading h1 span {
+    font-size: 40px;
+  }
+
+  .getStarted .shape {
+    left: 43%;
+  }
+
+}
+
+@media (min-width:576px) and (max-width:768.5px) {
+
+  .hero h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .hero p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .heroContainer {
+    padding-left: 30px;
+  }
+
+  .hero {
+    width: 100%;
+
+  }
+
+  section .aboutUs {
+    padding: 70px 0px;
+  }
+
+  section .aboutUs .left {
+    display: none;
+  }
+
+  section .aboutUs .right {
+    width: 90%;
+  }
+
+  section .Investment .topDesign {
+    display: none;
+  }
+
+  section .Investment .heading {
+    width: 60%;
+  }
+
+  section .Investment .heading p {
+    font-size: 20px;
+    z-index: 4000;
+    font-weight: 600;
+  }
+
+  section .Investment .cardCon {
+    grid-template-columns: 50% 50%;
+    gap: 15px;
+    padding: 50px;
+  }
+
+  section .Investment .cardCon .card button {
+    font-size: 15px;
+    padding: 13px 23px;
+  }
+
+  .WhyChoose .heading {
+    width: 90%;
+  }
+
+  .WhyChoose .heading h1 {
+    font-size: 30px;
+  }
+
+  .WhyChoose .heading h1 span {
+    font-size: 40px;
+  }
+
+  .WhyChoose .cardCon {
+    grid-template-columns: 50% 50%;
+  }
+
+  .HowItWork .heading {
+    width: 85%;
+    padding-bottom: 20px;
+  }
+
+  .HowItWork .heading p {
+    word-spacing: 2px;
+    font-size: 20px;
+  }
+
+  .HowItWork .heading h1 {
+    font-size: 30px;
+  }
+
+  .HowItWork .heading h1 span {
+    font-size: 40px;
+  }
+
+  .HowItWork .line {
+    width: 20px;
+  }
+
+  .HowItWork .content {
+    gap: 5px;
+  }
+
+  #FAQ {
+    padding: 70px 30px;
+  }
+
+  .FAQ .heading {
+    width: 90%;
+  }
+
+  .FAQ .heading h1 {
+    font-size: 30px;
+  }
+
+  .FAQ .heading h1 span {
+    font-size: 40px;
+  }
+
+  .FAQ .heading p {
+    font-size: 20px;
+  }
+
+  .FAQ .content {
+    width: 95%;
+  }
+
+  .FAQ .content .card h1 {
+    font-size: 22px;
+  }
+
+  .FAQ .content .card p {
+    font-size: 19px;
+  }
+
+  #getStarted {
+    padding: 80px 50px 120px 50px;
+  }
+
+  .getStarted .heading h1 {
+    font-size: 30px;
+  }
+
+  .getStarted .heading h1 span {
+    font-size: 40px;
+  }
+
+  .getStarted .update {
+    padding: 20px;
+  }
+
+  .getStarted .update h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .foot .logo h1 {
+    font-size: 22px;
+  }
+
+  .getStarted .shape {
+    left: 40%;
+  }
+}
+
+@media screen and (max-width:576.5px) {
+
+
+
+  .hero h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .hero p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .heroContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .hero {
+    width: 100%;
+
+  }
+
+  section .aboutUs {
+    padding: 70px 0px;
+  }
+
+  section .aboutUs .left {
+    display: none;
+  }
+
+  section .aboutUs .right {
+    width: 94%;
+    padding-right: 10px;
+  }
+
+  section .aboutUs .right p {
+    line-height: 25px;
+  }
+
+  section .Investment .topDesign {
+    display: none;
+  }
+
+  section .Investment .bottomDesign {
+    height: 250px;
+    width: 250px;
+    margin-top: -160px;
+  }
+
+  section .Investment .heading {
+    width: 93%;
+  }
+
+  section .Investment .heading h2 {
+    line-height: 60px;
+  }
+
+  section .Investment .heading p {
+    font-size: 20px;
+    z-index: 4000;
+    font-weight: 500;
+  }
+
+  section .Investment .cardCon {
+    grid-template-columns: 100%;
+
+    padding: 30px 20px;
+  }
+
+  section .Investment .cardCon .card button {
+    font-size: 15px;
+    padding: 13px 23px;
+  }
+
+  .WhyChoose .heading {
+    width: 100%;
+    text-align: left;
+  }
+
+  .WhyChoose .heading h1 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .WhyChoose .heading p {
+    font-weight: 400;
+  }
+
+  .WhyChoose .heading h1 span {
+    font-size: 40px;
+  }
+
+  .WhyChoose .cardCon {
+    grid-template-columns: 100%;
+  }
+
+  #WhyChoose {
+    padding: 100px 20px;
+  }
+
+  .HowItWork .heading {
+    width: 85%;
+    padding-bottom: 20px;
+    text-align: left;
+  }
+
+  .HowItWork .heading p {
+    word-spacing: 1px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .HowItWork .heading h1 {
+    font-size: 30px;
+  }
+
+  .HowItWork .heading h1 span {
+    font-size: 40px;
+  }
+
+  .HowItWork .line {
+    width: 20px;
+  }
+
+  .HowItWork .content {
+    gap: 15px;
+    flex-direction: column;
+    margin-top: 12px;
+  }
+
+  .HowItWork .content div h1 {
+    border-bottom: dotted 2.3px;
+    padding-bottom: 7px;
+  }
+
+  .HowItWork .line {
+    display: none;
+  }
+
+
+  #FAQ {
+    padding: 70px 25px;
+  }
+
+  .FAQ .heading {
+    width: 100%;
+  }
+
+  .FAQ .heading h1 {
+    font-size: 30px;
+  }
+
+  .FAQ .heading h1 span {
+    font-size: 40px;
+  }
+
+  .FAQ .heading p {
+    font-size: 20px;
+  }
+
+  .FAQ .content {
+    width: 100%;
+  }
+
+  .FAQ .content .card h1 {
+    font-size: 22px;
+  }
+
+  .FAQ .content .card p {
+    font-size: 19px;
+    padding: 20px 15px;
+    line-height: 25px;
+  }
+
+  #getStarted {
+    padding: 80px 20px 110px 20px;
+  }
+
+  .getStarted .heading h1 {
+    font-size: 30px;
+  }
+
+  .getStarted .heading h1 span {
+    font-size: 40px;
+  }
+
+  .getStarted .update button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .getStarted .update {
+    padding: 20px;
+  }
+
+  .getStarted .update h1 {
+    font-size: 25px;
+    margin-bottom: 7px;
+    line-height: 25px;
+  }
+
+  .getStarted .shape {
+    left: 34%;
+  }
+
+  footer {
+    padding-bottom: 50px;
+  }
+
+  .foot .logo h1 {
+    font-size: 22px;
+  }
+
+  .foot .link ul {
+    gap: 15px;
+  }
+}
+
+@media (min-width:460px) and (max-width:576px) {
+  .getStarted .shape {
+    left: 37%;
+  }
+}
+
+@media screen and (max-width:365px) {
+  .getStarted .update button {
+    padding: 8px;
+    font-size: 14px;
+    overflow: hidden;
+    margin-left: -70px;
+  }
+
+  .getStarted .shape {
+    left: 30%;
+  }
+}
+
+@media screen and (max-width:930px) {
+  .middle ul {
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 91px;
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 540%;
+    background-color: rgb(198 148 4);
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    transform-origin: right;
+  }
+
+  .burger {
+    display: block;
+  }
+
+
+  .middle ul li a {
+
+    padding-bottom: 10px;
+    transition: .2s;
+
+  }
+
+  .middle ul li a:hover {
+    color: black;
+  }
+
+  .middle ul a,
+  .middle ul button {
+    opacity: 0;
+    transform-origin: top;
+  }
+
+  .navActive ul {
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 91px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+    height: 540%;
+    background-color: rgb(198 148 4);
+    align-items: center;
+    width: 50%;
+    transition: transform 0.5s ease-in;
+    transform: translateX(0%);
+    transform-origin: left;
+  }
+
+
+}
+
+@media (min-width:650px) and (max-width:930px) {
+
+  .middle ul {
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 91px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+    height: 540%;
+    background-color: rgb(198 148 4);
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    transform-origin: right;
+  }
+
+  .navActive ul {
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    font-size: 19px;
+    top: 91px;
+
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 540%;
+    background-color: rgb(198 148 4);
+    align-items: center;
+    width: 40%;
+    transition: transform 0.5s ease-in;
+    transform: translateX(0%);
+    transform-origin: left;
+  }
+
+
+}
+
+@media screen and (max-width:650px) {
+  .FAQ .content .card p {
+    font-size: 17px;
+  }
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

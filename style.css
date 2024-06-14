@@ -1,0 +1,702 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo img {
+  height: 46px;
+}
+
+.logo h2 {
+  font-family: "Teko", sans-serif;
+  font-style: normal;
+  font-size: 26px;
+
+}
+
+nav {
+
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 12px;
+  background-color: #fcbc03;
+}
+
+.burger {
+  display: none;
+}
+
+.middle ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.middle ul li,
+a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  transition: .2s;
+}
+
+.middle ul li,
+a:hover {
+  color: black;
+}
+
+.right button {
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+  padding: 8px 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.right button:first-child {
+  background-color: #e4af4d;
+  margin-right: 10px;
+}
+
+.right button:first-child:hover {
+  background-color: rgba(228, 175, 77, 0.6);
+}
+
+.right button:nth-child(2) {
+  background-color: rgb(3, 114, 120);
+}
+
+.right button:nth-child(2):hover {
+  background-color: rgba(3, 114, 120, 0.6);
+}
+
+.heroContainer {
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/background-1945183_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-attachment: fixed;
+  margin-top: 90px;
+  padding: 60px 50px 50px 60px;
+}
+
+.hero {
+  height: 100%;
+  width: 60%;
+  color: white;
+
+}
+
+.hero h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 80px;
+  line-height: 75px;
+}
+
+.hero h1 span {
+  color: #fcbc03;
+  font-family: "Teko", sans-serif;
+}
+
+.hero p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.hero button {
+  font-size: 16px;
+  padding: 15px 35px;
+  margin-top: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.hero button:nth-child(3) {
+  background-color: #fcbc03;
+  transition: .2s;
+  transform-origin: left;
+}
+
+
+.hero button:nth-child(3):hover {
+  margin-right: -4px;
+}
+
+.hero button:nth-child(4) {
+  background-color: rgb(3, 114, 120);
+}
+
+section #aboutUs {
+  height: 100%;
+  width: 100%;
+  padding: 120px 10px;
+}
+
+section .aboutUs {
+  height: 100%;
+  display: flex;
+  background-color: black;
+  color: white;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+section .aboutUs .left {
+  width: 50%;
+  background-color: #fcbc03;
+  height: 115%;
+  padding: 80px;
+  border-top-right-radius: 750px;
+  border-bottom-right-radius: 700px;
+}
+
+section .aboutUs .right {
+  width: 50%;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+section .aboutUs .right h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 29px;
+}
+
+section .aboutUs .right button {
+  font-size: 16px;
+  padding: 15px 35px;
+  margin-top: 20px;
+  color: black;
+  cursor: pointer;
+  border-radius: none;
+  background-color: #fcbc03;
+}
+
+section .aboutUs .right h2 span {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fcbc03;
+}
+
+section .aboutUs .right p {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+section .aboutUs .left img {
+  height: 500px;
+
+}
+
+#investment {
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/nature-3082832_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-attachment: fixed;
+}
+
+section .Investment {
+  height: 100%;
+  margin-top: -10px;
+  padding: 90px 0px;
+  border-bottom: solid 10px #fcbc03;
+  border-top: solid 10px #fcbc03;
+}
+
+section .Investment .heading {
+  width: 40%;
+  text-align: center;
+  color: white;
+  z-index: 30;
+}
+
+section .Investment .heading h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 35px;
+}
+
+section .Investment .heading h2 span {
+  font-size: 65px;
+  font-weight: 800;
+  color: #fcbc03;
+}
+
+section .Investment .heading p {
+  font-size: 23px;
+  font-family: sans-serif;
+  line-height: 32px;
+}
+
+section .Investment .headCon {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+section .Investment .cardCon {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 30px;
+  padding: 60px 150px;
+  z-index: 30;
+}
+
+section .Investment .cardCon .card h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+section .Investment .cardCon .card {
+  background-color: rgb(194 145 3);
+  opacity: 0.9;
+  padding: 20px 40px;
+  border-radius: 15px;
+  text-align: center;
+  border: solid 4px #fcbc03;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+  transition: .2s;
+  z-index: 788;
+}
+
+section .Investment .cardCon .card:hover {
+  box-shadow: 5px 5px 15px 10px rgba(198, 148, 4, 0.9);
+}
+
+section .Investment .cardCon .card p {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  border-bottom: solid 1px #906c04;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+section .Investment .topDesign {
+  height: 400px;
+  width: 400px;
+  background-color: #fcbc03;
+  position: absolute;
+  right: 0;
+  margin-top: -250px;
+  border-bottom-left-radius: 800px;
+  padding-top: 30px;
+}
+
+section .Investment .bottomDesign {
+  height: 400px;
+  width: 400px;
+  background-color: #fcbc03;
+  position: absolute;
+  left: 0;
+  margin-top: -310px;
+  border-top-right-radius: 600px;
+}
+
+section .Investment .cardCon .card button {
+  font-size: 16px;
+  padding: 17px 27px;
+  border: none;
+  border-radius: 30px;
+  background-color: #fcbc03;
+  color: white;
+  margin-top: -10px;
+  transition: .2s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+section .Investment .cardCon .card button:hover {
+  background-color: white;
+  color: black;
+  padding: 20px 40px;
+  cursor: pointer;
+}
+
+#WhyChoose {
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/forest-3119826_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-attachment: fixed;
+  padding: 100px 50px;
+}
+
+section .WhyChoose {
+  height: 100%;
+  text-align: center;
+  color: white;
+}
+
+.WhyChoose .heading {
+  width: 60%;
+  padding-bottom: 50px;
+}
+
+.WhyChoose .heading h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 45px;
+}
+
+.WhyChoose .heading h1 span {
+  color: #fcbc03;
+  font-family: "Teko", sans-serif;
+  font-size: 66px;
+  font-weight: 800;
+}
+
+.WhyChoose .headingCon {
+  display: flex;
+  justify-content: center;
+}
+
+.WhyChoose .heading p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.WhyChoose .cardCon {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 25px;
+}
+
+.WhyChoose .card {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border: solid 2px white;
+  transition: .2s;
+}
+
+.WhyChoose .card:hover {
+  border: solid 2px #fcbc03;
+  box-shadow: 5px 5px 14px 1px rgba(0, 0, 0, 0.7);
+}
+
+.WhyChoose .card h1 {
+  font-family: "Teko", sans-serif;
+  margin-bottom: 15px;
+}
+
+#HowItWork {
+  height: 100%;
+  width: 100%;
+  background-color: #fcbc03;
+  border-bottom-right-radius: 300px;
+  padding: 120px 0px;
+
+}
+
+.HowItWork {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.HowItWork .heading {
+  width: 50%;
+}
+
+.HowItWork .heading h1 {
+  color: white;
+}
+
+.HowItWork .heading h1 span {
+  color: black;
+}
+
+.HowItWork .line {
+  border-bottom: dotted 3px;
+  width: 120px;
+  height: 150px;
+}
+
+.HowItWork .heading p {
+  font-size: 20px;
+}
+
+.heading h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 45px;
+}
+
+.heading h1 span {
+  color: #fcbc03;
+  font-family: "Teko", sans-serif;
+  font-size: 66px;
+  font-weight: 800;
+}
+
+.HowItWork .content {
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 15px;
+}
+
+.HowItWork .content div h1 {
+  font-family: "Teko", sans-serif;
+  padding: 20px 0px;
+}
+
+.HowItWork .content div span {
+  background-color: #fcbc03;
+  padding: 10px 20px;
+  border-radius: 50%;
+  font-weight: 800;
+  position: absolute;
+  top: 15;
+  margin-left: 53px;
+  z-index: 300;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.HowItWork .content div img {
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 3px 3px 13px 14px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+#FAQ {
+  height: 100%;
+  width: 100%;
+  padding: 100px;
+}
+
+.FAQ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FAQ .heading {
+  text-align: center;
+  width: 58%;
+  margin-bottom: 50px;
+  margin-top: 18px;
+}
+
+.FAQ .heading p {
+  font-size: 20px;
+}
+
+.FAQ .content {
+  width: 60%;
+}
+
+.FAQ .content .card h1 {
+  font-family: "Teko", sans-serif;
+  background-color: #fcbc03;
+  padding: 15px 25px;
+}
+
+.FAQ .content .card p {
+  font-size: 20px;
+  line-height: 30px;
+  background-color: whitesmoke;
+  padding: 20px 30px;
+  margin-bottom: 35px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+.FAQ .button {
+  display: flex;
+  justify-content: center;
+}
+
+.FAQ button {
+  font-size: 16px;
+  padding: 15px 30px;
+  border-radius: 20px;
+  background-color: #fcbc03;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+  border: none;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.FAQ button:hover {
+  background-color: white;
+  padding: 15px 40px;
+}
+
+#getStarted {
+  padding: 120px 200px;
+  height: 100%;
+  width: 100%;
+  background-color: #fcbc03;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.getStarted {
+  height: 100%;
+
+}
+
+.getStarted button {
+  flex-grow: none;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  font-size: 16px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.getStarted .heading {
+  margin-bottom: 30px;
+}
+
+.getStarted .heading h1 {
+  color: black;
+}
+
+.getStarted .heading h1 span {
+  color: white;
+}
+
+.getStarted .heading p {
+  font-size: 20px;
+  font-weight: 4880;
+}
+
+.getStarted .update {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-color: white;
+  padding: 30px 170px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 15px 15px rgba(0, 0, 0, 0.4);
+
+}
+
+.getStarted .update h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
+  margin-bottom: 15px
+}
+
+.getStarted .input {
+  border: solid 1px;
+  border-radius: 30px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.getStarted .input button {
+  font-family: "Teko", sans-serif;
+
+}
+
+.getStarted .input input {
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+
+.getStarted .shape {
+  height: 140px;
+  width: 140px;
+  bottom: 0;
+  position: absolute;
+  left: 45%;
+  margin-bottom: -50px;
+  transform: rotate(-137deg);
+  background-color: #fcbc03;
+}
+
+footer {
+  height: 100%;
+  width: 100%;
+  padding: 100px 70px;
+  background-image: url(./images/bokeh-1127378_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+
+}
+
+.foot {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.foot .link ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+
+}
+
+.foot .link ul li a {
+  font-size: 15px;
+  font-weight: lighter;
+  transition: .3s;
+}
+
+
+.foot .link {
+  margin-top: 35px;
+}
+
+.foot .logo h1 {
+  font-family: "Teko", sans-serif;
+  font-family: 26px;
+}
+
+.copyRight {
+  font-size: 16px;
+  margin-top: 35px;
+}
