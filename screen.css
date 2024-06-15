@@ -735,11 +735,14 @@
 
 @media screen and (max-width:1500px) {
   .FAQ .content .card p, .hero p, section .aboutUs .right p {
-    font-size: 15px;
-    line-height:25px
+    font-size: 13px;
+    line-height:23px
   }
-
-  
+}
+@media (min-width:600px) and (max-width:800px){
+  .logo img{
+    display:none;
+  }
 }
 
 @keyframes navLinkFade {
