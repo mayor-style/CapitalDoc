@@ -642,7 +642,7 @@
     flex-direction: column;
     position: absolute;
     right: 0px;
-    top: 115px;
+    top: 113px;
     padding-top: 20px;
     padding-left: 20px;
     height: 540%;
@@ -680,10 +680,9 @@
     flex-direction: column;
     position: absolute;
     right: 0px;
-    top: 115px;
+    top: 113px;
     padding-top: 20px;
     padding-left: 20px;
-
     height: 540%;
     background-color: rgb(198 148 4);
     align-items: center;
@@ -702,10 +701,9 @@
     flex-direction: column;
     position: absolute;
     right: 0px;
-    top: 115px;
+    top: 113px;
     padding-top: 20px;
     padding-left: 20px;
-
     height: 540%;
     background-color: rgb(198 148 4);
     align-items: center;
@@ -720,8 +718,7 @@
     position: absolute;
     right: 0px;
     font-size: 19px;
-    top: 115px;
-
+    top: 113px;
     padding-top: 20px;
     padding-left: 20px;
     height: 540%;
@@ -738,7 +735,7 @@
 
 @media screen and (max-width:950px) {
   .FAQ .content .card p, .hero p, section .aboutUs .right p {
-    font-size: 17px;
+    font-size: 15px;
     line-height:25px
   }
 
